@@ -1,0 +1,81 @@
+*{
+    background:hsl(47, 88%, 63%);
+}
+.card{
+    width: 30%;           
+    max-width: 1200px;   
+    margin: 0 auto;     
+    padding: 20px;      
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.95);
+    border-radius:20px;
+}
+.image{
+    width:100%;
+    height:auto;
+    border-radius:20px;
+}
+.card_info {
+    background-color: hsl(0, 0%, 100%);
+}
+.btn {
+    background-color:hsl(47, 88%, 63%) ; /* Set button background */
+    color:hsl(0, 0%, 7%) ; /* Button text color */
+    padding: 4px 8px; /* Padding around button text */
+    border-radius: 4px; /* Round button corners */
+    display: inline-block; /* Maintain inline block layout */
+    max-width: fit-content; 
+    margin-top:8px;
+
+}
+.date{
+    background-color: hsl(0, 0%, 100%);
+}
+.content{
+    background-color:hsl(0, 0%, 100%) ;
+}
+.header{
+    background-color:hsl(0, 0%, 100%) ;
+    color:hsl(47, 88%, 63%);
+    font-size: 24px;
+    font-weight: 900;
+    margin-block-start: 12px;
+}
+.para{
+    background-color:hsl(0, 0%, 100%) ;
+    font-size: 16px;
+    color:hsl(0, 0%, 42%);
+}
+.user{
+    background-color:hsl(0, 0%, 100%) ;
+    display: flex; 
+    align-items: center; 
+    margin-top: 16px; 
+    flex-direction: row; 
+    gap: 8px;
+}
+.user-image {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    background-color:hsl(0, 0%, 100%) ;
+}
+.username {
+    font-size: var(--fs-x-bold-s);
+    font-weight: bold;
+    --fs-x-bold-s: 1.125rem;
+    margin-left: 8px;  
+    background-color:hsl(0, 0%, 100%) ;
+}
+.attribution {
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add a margin above the attribution */
+    font-size: 0.8rem; /* Smaller font size for attribution */
+    color: hsl(0, 0%, 42%); /* Grey color for attribution */
+   }
+   
+   .attribution a {
+    color: hsl(228, 45%, 44%); /* Link color */
+    text-decoration: none; /* Remove default underline */
+    font-weight: bold; /* Make link text bold */
+   }
