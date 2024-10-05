@@ -19,11 +19,11 @@
     background-color: hsl(0, 0%, 100%);
 }
 .btn {
-    background-color:hsl(47, 88%, 63%) ; /* Set button background */
-    color:hsl(0, 0%, 7%) ; /* Button text color */
-    padding: 4px 8px; /* Padding around button text */
-    border-radius: 4px; /* Round button corners */
-    display: inline-block; /* Maintain inline block layout */
+    background-color:hsl(47, 88%, 63%) ;
+    color:hsl(0, 0%, 7%) ; 
+    padding: 4px 8px; 
+    border-radius: 4px; 
+    display: inline-block;
     max-width: fit-content; 
     margin-top:8px;
 
@@ -68,14 +68,14 @@
     background-color:hsl(0, 0%, 100%) ;
 }
 .attribution {
-    text-align: center; /* Center the text */
-    margin-top: 20px; /* Add a margin above the attribution */
-    font-size: 0.8rem; /* Smaller font size for attribution */
-    color: hsl(0, 0%, 42%); /* Grey color for attribution */
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 42%); 
    }
    
    .attribution a {
-    color: hsl(228, 45%, 44%); /* Link color */
-    text-decoration: none; /* Remove default underline */
-    font-weight: bold; /* Make link text bold */
+    color: hsl(228, 45%, 44%);
+    text-decoration: none; 
+    font-weight: bold; 
    }
